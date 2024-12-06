@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Panjang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Konversi Panjang</h2>
+        <p>Masukkan nilai panjang:</p>
+        <input type="number" id="inputPanjang" placeholder="Masukkan angka" step="0.01">
+        <p>Pilih satuan asal:</p>
+        <select id="satuanAsal">
+            <option value="km">Kilometer</option>
+            <option value="m">Meter</option>
+            <option value="cm">Sentimeter</option>
+            <option value="mm">Milimeter</option>
+        </select>
+        <button onclick="konversiPanjang()">Konversi</button>
+        <div id="hasil"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
